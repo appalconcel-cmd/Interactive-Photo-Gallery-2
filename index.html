@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">Select an image from the gallery.</div>
+    
+    <div id="caption">Hover over an image below to see the description.</div>
+
+    <div class="thumbnails">
+        <img class="preview" 
+             alt="Catnap from Smiling Critters" 
+             src="https://static.wikia.nocookie.net/smiling-critters/images/2/27/CatNap.png/revision/latest/thumbnail/width/360/height/360?cb=20240219201830" 
+             onmouseover="upDate(this)">
+
+        <img class="preview" 
+             alt="Dogday from Smiling Critters" 
+             src="https://static.wikia.nocookie.net/smiling-critters/images/3/3c/DogDay.png/revision/latest/scale-to-width-down/1200?cb=20240211083006" 
+             onmouseover="upDate(this)">
+
+        <img class="preview" 
+             alt="Craftycorn from Smiling Critters" 
+             src="https://static.wikia.nocookie.net/smiling-critters/images/f/f5/CraftyCorn.png/revision/latest?cb=20231122173435" 
+             onmouseover="upDate(this)">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
